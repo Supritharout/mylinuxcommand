@@ -1,1 +1,13 @@
+######-------FILE COMMAND-------#######
+ls (list the directory content)
+ls -lrt (-l long listing, -r reverese the order, -t for sorting-newest first)
+ls -a (-a lists all files and directories in the current directory, including hidden ones)
+cp (copy files and directory)
+mv (move files/rename the file)
+cd (change the working directory)
+mkdir (creates directory)
+rm  (to remove files or dirc)
+rmdir (remove empty direc)
+rm -r (-r to remove directory and their content recursively)
+rm -f (force removal without prompting for confirmation)
 
