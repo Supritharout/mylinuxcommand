@@ -11,3 +11,34 @@ rmdir (remove empty direc)
 rm -r (-r to remove directory and their content recursively)
 rm -f (force removal without prompting for confirmation)
 
+###########-----FILE PROPERTY COMMAND---##############
+
+wc (word count,which counts number of line in the file)
+touch (to create new file/change the time stamp)
+chmod (changing the file mode)
+chgrp (change group owner ship)
+du  (estimate file space usage)
+stat (display file or file status)
+chown (change file owner and group)
+file (determine file type eg : file sample.txt)
+
+
+########------FILE SEARCH COMMAND----######
+find (search for file in direc )
+locate (list files in databases that match a pattern) 
+
+######-------FILE MANUPULATION COMMAND---#####
+grep (to find patters in file.)
+sort (to sort the lines/direc)
+
+######---VIEW FILE------#############
+
+cat (to concat the file /display the file content)
+head (to display 1st few lines of the file)
+tail (display last few lines of the file)
+more (Similar to less, but with fewer features.)
+less  (View the file content one page at a time (useful for large files)
+
+
+
+
