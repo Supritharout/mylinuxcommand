@@ -40,5 +40,31 @@ more (Similar to less, but with fewer features.)
 less  (View the file content one page at a time (useful for large files)
 
 
+#####-----Disk Useage----####
+
+du -sh /path/to/directory   to check direc level usage 
+df -h to check dire level details;
+du -sm * | sort -n 
+
+####----permission---#######
+
+ls -lrt  /path/to/file/( to check the permission)
+chmod 777 file name  (to modify permission) 
+
+
+`ps aux | grep process-name` or `top`. to find PID
+`kill -9 PID` or `pkill process-name` to kill the process 
+`killall -9 process-name`.
+
+No Space Left on Device" Despite Free Space 
+- Check inode usage: df -i
+- Delete small, numerous files (e.g., temporary files) to free inodes.
+
+
+High CPU/Memory Usage
+Identify resource hogs: `top`, `htop`, or `vmstat 2`. 
+Kill problematic processes or optimize applications. Check for memory leaks with `free -h`.
+
+
 
 
