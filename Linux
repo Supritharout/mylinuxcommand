@@ -10,7 +10,7 @@ rm  (to remove files or dirc)
 rmdir (remove empty direc)
 rm -r (-r to remove directory and their content recursively)
 rm -f (force removal without prompting for confirmation)
-
+shift + g (goes to end of the line)
 ###########-----FILE PROPERTY COMMAND---##############
 
 wc (word count,which counts number of line in the file)
@@ -45,6 +45,7 @@ less  (View the file content one page at a time (useful for large files)
 du -sh /path/to/directory   to check direc level usage 
 df -h to check dire level details;
 du -sm * | sort -n 
+du -sh . (to check current location disk space)
 
 ####----permission---#######
 
@@ -67,4 +68,6 @@ Kill problematic processes or optimize applications. Check for memory leaks with
 
 
 
-
+#########----Network-----##########
+FTP - FILE TRANSFER PROTOCAL
+SCP - SECURE COPY PROTOCAL
