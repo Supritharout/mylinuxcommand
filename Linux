@@ -72,3 +72,6 @@ Kill problematic processes or optimize applications. Check for memory leaks with
 #########----Network-----##########
 FTP - FILE TRANSFER PROTOCAL
 SCP - SECURE COPY PROTOCAL
+
+Telnet -  un-secured connection between the computer
+SSH - secured
