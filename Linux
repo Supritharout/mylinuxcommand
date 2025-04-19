@@ -72,6 +72,15 @@ Kill problematic processes or optimize applications. Check for memory leaks with
 #########----Network-----##########
 FTP - FILE TRANSFER PROTOCAL
 SCP - SECURE COPY PROTOCAL
+DNS - Domain name system- dns is a system that use to translate host/computer name into ip address
+--host name--
+PTR record (IP to Hostname)
+A record (Hostname to IP)
+CNAME = (Hostname to hostname)   
+/etc - store config file
+/var/name -  all zone files ...ip to host ,host to ip
+service---
+systemctl service_name
 
 Telnet -  un-secured connection between the computer
 SSH - secured
