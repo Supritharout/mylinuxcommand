@@ -73,7 +73,7 @@ Kill problematic processes or optimize applications. Check for memory leaks with
 FTP - FILE TRANSFER PROTOCAL
 SCP - SECURE COPY PROTOCAL
 DNS - Domain name system- dns is a system that use to translate host/computer name into ip address
---host name--
+--host name--F
 PTR record (IP to Hostname)
 A record (Hostname to IP)
 CNAME = (Hostname to hostname)   
