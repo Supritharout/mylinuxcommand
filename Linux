@@ -84,3 +84,13 @@ systemctl service_name
 
 Telnet -  un-secured connection between the computer
 SSH - secured
+
+------how to open image using command line----
+
+package name : GraphicsMagick
+command : dnf install GraphicsMagick
+1.become root
+2. yum install imageMagick -y 
+3. display image-file
+
+
