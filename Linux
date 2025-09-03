@@ -48,6 +48,7 @@ du -sh /path/to/directory   to check direc level usage
 df -h to check dire level details;
 du -sm * | sort -n 
 du -sh . (to check current location disk space)
+du -ah / | sort -nr
 
 ####----permission---#######
 
