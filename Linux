@@ -95,4 +95,8 @@ command : dnf install GraphicsMagick
 2. yum install imageMagick -y 
 3. display image-file
 
+---------vi editor------
+1. to delete all content at once in vi editor  : Esc and Shift :d%
+2. to delete single entire line : in esc mode press --> dd
+
 
