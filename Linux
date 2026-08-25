@@ -99,4 +99,12 @@ command : dnf install GraphicsMagick
 1. to delete all content at once in vi editor  : Esc and Shift :d%
 2. to delete single entire line : in esc mode press --> dd
 
+------------AWK-----------
+awk works on structured data
+
+awk '{print $1}' app.log ( this command says to print column 1 from app.log )
+awk '{print $1 $2 $4}' app.log
+awk '/RG/ {print $1 $2 $4}' app.log (this will print RG letter from app.log)
+awk '/RG/ {print $1 $2 $4}' app.log >only_RG.log (this will store the RG letter only_RG.log file)
+awk '/NETWORK/ {count++} END {print count}' app.log  (this will count and print the word NETWORK from app.log file)
 
