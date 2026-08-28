@@ -107,4 +107,5 @@ awk '{print $1 $2 $4}' app.log
 awk '/RG/ {print $1 $2 $4}' app.log (this will print RG letter from app.log)
 awk '/RG/ {print $1 $2 $4}' app.log >only_RG.log (this will store the RG letter only_RG.log file)
 awk '/NETWORK/ {count++} END {print count}' app.log  (this will count and print the word NETWORK from app.log file)
+systemctl status nginx | awk 'NR==3 {print $2}' (to check the status of service)
 
