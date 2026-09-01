@@ -16,5 +16,10 @@
 ### *Port and connection checks*
 1. **telent** (telnet example.com 443) - Test if a specific port is open/reachable
 2. **ss** - Show active connections and listening ports (modern replacement for netstat)
-      (ss -tuln # show all listening tcp/udp port) 
-      (ss -tunap #show with process names with sudo)
+      1. (ss -tuln # show all listening tcp/udp port) 
+      2. (ss -tunap #show with process names with sudo)
+3. **netstat** -tulnp
+
+### *Interface and IP Configuration*
+1. **ip addr / ip a** - Show network interface and IP address, modern replacement for ifconfig)
+2. **ip route** - Show routing table
